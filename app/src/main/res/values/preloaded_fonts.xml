@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bebas_neue</item>
+        <item>@font/black_and_white_picture</item>
+        <item>@font/carter_one</item>
+        <item>@font/chicle</item>
+        <item>@font/freckle_face</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/jolly_lodger</item>
+        <item>@font/lemon</item>
+        <item>@font/lobster</item>
+        <item>@font/rubik_bold</item>
+        <item>@font/rubik_light</item>
+    </array>
+</resources>

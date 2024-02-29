@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/crew_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="309dp"
+            android:src="@drawable/brookbg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/crew_pic"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/brook"
+            app:layout_constraintBottom_toBottomOf="@+id/crew_name"
+            app:layout_constraintStart_toStartOf="@+id/crew_bg" />
+
+        <TextView
+            android:id="@+id/crew_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/lobster"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/crew_pic"
+            app:layout_constraintTop_toBottomOf="@+id/crew_bg"
+            tools:text="Brook" />
+
+        <TextView
+            android:id="@+id/crew_desc"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/jolly_lodger"
+            android:justificationMode="inter_word"
+            android:text="sdauuuuuuuuuuuuuuuuuuuuuuuuuuuuuuiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crew_kelemahan"
+            app:layout_constraintWidth_default="wrap"
+            app:layout_constraintWidth_max="wrap" />
+
+
+        <TextView
+            android:id="@+id/crew_buah"
+            android:layout_width="155dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/lemon"
+            android:text="Kekuatan     :"
+            android:textColor="#0000FF"
+            android:textColorHighlight="#9C27B0"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crew_pic" />
+
+        <TextView
+            android:id="@+id/crew_kelemahan"
+            android:layout_width="154dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/lemon"
+            android:justificationMode="inter_word"
+            android:text="Kelemahan  :"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crew_buah" />
+
+        <TextView
+            android:id="@+id/crew_power"
+            android:layout_width="174dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/lemon"
+            android:justificationMode="inter_word"
+            android:text="Weak"
+            android:textColor="#0000ff"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/crew_buah"
+            app:layout_constraintTop_toBottomOf="@+id/share_button" />
+
+        <TextView
+            android:id="@+id/crew_weak"
+            android:layout_width="174dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lemon"
+            android:justificationMode="inter_word"
+            android:text="Weak"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/crew_kelemahan"
+            app:layout_constraintTop_toBottomOf="@+id/crew_power" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="94dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="16dp"
+            android:text="Share"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.898"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crew_bg"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

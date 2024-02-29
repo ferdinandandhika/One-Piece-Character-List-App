@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">OnePiece</string>
+
+    <string name="crew_name">Nama Bajak Laut</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string-array name="data_name">
+        <item>Brook</item>
+        <item>Luffy</item>
+        <item>Franky</item>
+        <item>Law</item>
+        <item>Mihawk</item>
+        <item>Nami</item>
+        <item>Zoro</item>
+        <item>Usoop</item>
+        <item>Robin</item>
+        <item>Chooper</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Brook adalah seorang musisi dan pedang samurai yang telah dihidupkan kembali sebagai mayat hidup setelah memakan Buah Iblis tipe Paramecia. Dia bergabung dengan Kru Topi Jerami setelah menemukan kesendirian selama beberapa tahun sebagai hantu di sebuah kapal. Impiannya adalah bertemu kembali dengan musisi legendaris dan memainkan konser terakhirnya di tempat kematian.</item>
+        <item>Sebagai kapten, Luffy adalah sosok yang penuh semangat, penuh tekad, dan seringkali naif. Dia memiliki kekuatan Buah Iblis tipe Paramecia yang memungkinkannya untuk meregangkan tubuhnya seperti karet. Tujuannya adalah menjadi Raja Bajak Laut dan menemukan harta legendaris, One Piece, untuk memenuhi impian petualangannya.</item>
+        <item>Franky adalah juru mesin Kru Topi Jerami yang memiliki tubuh cyborg setelah membangun kembali dirinya sendiri. Dia adalah ahli dalam permesinan dan bertanggung jawab atas pembuatan kapal Kru Topi Jerami yang baru, Thousand Sunny. Impiannya adalah membangun kapal terbesar dan terkuat yang pernah ada.</item>
+        <item>Law adalah seorang bajak laut yang memimpin kru Heart Pirates. Dia adalah seorang dokter yang sangat terampil dan memiliki kekuatan Buah Iblis tipe Paramecia yang disebut Ope Ope no Mi. Kekuatan ini memungkinkannya untuk memanipulasi benda dengan menggunakan medan ruang. Law diperkenalkan sebagai salah satu dari "Worst Generation", sekelompok bajak laut muda yang terkenal dan berpotensi besar.</item>
+        <item>Mihawk adalah seorang bajak laut yang dikenal sebagai "Hawk Eyes" (Mata Elang) dan dianggap sebagai salah satu pedang terkuat di dunia One Piece. Dia adalah pemilik gelar "Shichibukai" sebelum sistem itu dibubarkan. Mihawk diperkenalkan sebagai seorang pria misterius yang tinggal di sebuah pulau besar bernama Kuraigana, dan dia sering kali terlihat bersama temannya, seorang burung gagak raksasa bernama Perona.</item>
+        <item>Nami adalah navigator Kru Topi Jerami yang cerdas dan lihai dalam penggunaan peta dan navigasi. Awalnya, dia bergabung dengan kru untuk mencari uang guna membebaskan desanya dari penindasan bajak laut. Impiannya adalah membuat peta dunia yang lengkap.</item>
+        <item>Zoro adalah seorang pedang yang sangat terampil dan memiliki prinsip-prinsip kehormatan yang kuat. Dia menggunakan tiga pedang dalam pertempuran, teknik ini dikenal sebagai "Santoryu". Impian Zoro adalah menjadi pendekar terhebat di dunia.</item>
+        <item>Usopp adalah penembak jitu Kru Topi Jerami yang cenderung ceroboh dan suka mengarang cerita. Dia sering menggunakan keterampilan pemalsuan dan trik dalam pertempuran. Awalnya, dia adalah seorang pengagum bajak laut legendaris yang membuatnya ingin menjadi pahlawan dan penembak jitu terhebat.</item>
+        <item>Robin adalah seorang arkeolog yang memiliki kekuatan Buah Iblis tipe Paramecia yang memungkinkannya memanipulasi bagian tubuhnya sendiri dan menciptakan bagian tubuh tambahan. Dia bergabung dengan Kru Topi Jerami setelah Luffy menyelamatkannya dari masa lalu yang kelam. Impiannya adalah memahami sejarah tersembunyi dunia.</item>
+        <item>Chopper adalah dokter hewan dan dokter Kru Topi Jerami. Dia memiliki kemampuan untuk berubah menjadi berbagai bentuk manusia dan hewan setelah memakan Buah Iblis tipe Zoan. Awalnya diabaikan oleh para anggota kru karena penampilannya yang berbeda, dia akhirnya diterima dan menjadi anggota yang sangat berharga. Impiannya adalah menjadi dokter terbaik di dunia.</item>
+    </string-array>
+    <string-array name="data_weak">
+        <item>Sea</item>
+        <item>Sea</item>
+        <item>Nothing</item>
+        <item>Sea and Dofie</item>
+        <item>Not even a god</item>
+        <item>Something scary</item>
+        <item>Luffy</item>
+        <item>Something scary</item>
+        <item>Marine</item>
+        <item>Something scary</item>
+    </string-array>
+
+    <string-array name="data_power">
+        <item>Ice and Speed</item>
+        <item>Karet</item>
+        <item>Robot</item>
+        <item>Space</item>
+        <item>1st Swordman</item>
+        <item>Navigation</item>
+        <item>Three Sword</item>
+        <item>Sniper</item>
+        <item>Archeologist</item>
+        <item>Doctor</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/brook</item>
+        <item>@drawable/luffy</item>
+        <item>@drawable/franky</item>
+        <item>@drawable/law</item>
+        <item>@drawable/mihawk</item>
+        <item>@drawable/nami</item>
+        <item>@drawable/zoro</item>
+        <item>@drawable/usop</item>
+        <item>@drawable/robin</item>
+        <item>@drawable/tony</item>
+    </integer-array>
+
+    <integer-array name="data_photobg">
+        <item>@drawable/brookbg</item>
+        <item>@drawable/luffybg</item>
+        <item>@drawable/frankybg</item>
+        <item>@drawable/lawbg</item>
+        <item>@drawable/mihawkbg</item>
+        <item>@drawable/namibg</item>
+        <item>@drawable/zorobg</item>
+        <item>@drawable/usopbg</item>
+        <item>@drawable/robinbg</item>
+        <item>@drawable/choperbg</item>
+
+    </integer-array>
+
+</resources>
